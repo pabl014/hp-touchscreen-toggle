@@ -45,20 +45,6 @@ To use the script, open PowerShell and run the following commands:
 ```
 **Output:** Touchscreen disabled.
 
-## Example
-
-### Enable the touchscreen
-```powershell
-./hp-touchscreen.ps1 enable
-```
-**Output:** Touchscreen enabled.
-
-### Disable the touchscreen
-```powershell
-./hp-touchscreen.ps1 disable
-```
-**Output:** Touchscreen disabled.
-
 ### Handle unknown commands
 If an invalid action is provided (neither `enable` nor `disable`), the script will output the following message:
 
